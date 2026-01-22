@@ -37,7 +37,7 @@ jobs:
       - uses: actions/download-artifact@v5
         with:
          artifact-ids: 5220988687
-         path: Test/Work
-         run: ls -R Test/Work
+         path: Test
+         run: ls -R Test
 
          

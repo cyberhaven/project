@@ -45,4 +45,5 @@ jobs:
          #artifact-ids: ${{ env.OUTPUT1 }}
          repository: ${{github.repository}}
          run-id: 21256156653  #{{github.run_id}}
+         run: ls -R
          

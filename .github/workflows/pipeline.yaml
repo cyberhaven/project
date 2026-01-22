@@ -36,5 +36,5 @@ jobs:
         run: echo "Artifact ID from previous job is $OUTPUT1"
       - uses: actions/download-artifact@v5
         with:
-         artifact-ids: $($OUTPUT1)
+         artifact-ids: ${{ env.OUTPUT1 }}
          run: ls -R

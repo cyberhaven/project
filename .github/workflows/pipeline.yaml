@@ -42,9 +42,9 @@ jobs:
          name: my-artifact
          path: Test
          github-token: ${{ github.token }}
-         #artifact-ids: ${{ env.OUTPUT1 }}
+         artifact-ids: ${{ env.OUTPUT1 }}
          repository: ${{github.repository}}
-         run-id: 21256156653  #{{github.run_id}}
+         #run-id: 21256156653  #{{github.run_id}}
       - name: Display structure of downloaded files
         run: ls -R Test
       - name: Print File Contents

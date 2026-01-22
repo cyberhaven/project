@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./project
+        working-directory: ./Test
     outputs:
       output1: ${{ steps.artifact-upload-step.outputs.artifact-id }}
     steps:
@@ -26,7 +26,7 @@ jobs:
         id: artifact-upload-step
         with:
           name: my-artifact
-          path: project/Test/
+          path: Test
           retention-days: 90
           compression-level: 6
           

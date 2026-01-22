@@ -48,5 +48,5 @@ jobs:
       - name: Display structure of downloaded files
         run: ls -R Test
       - name: Print File Contents
-        run: cat test.txt
+        run: cat Test/test.txt
       

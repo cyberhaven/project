@@ -41,4 +41,4 @@ jobs:
          #artifact-ids: ${{ env.OUTPUT1 }}
          repository: Test
          run-id: 21254578665 #${{ github.run_id }}
-         
+         github-token: ${{ secrets.GH_PAT }}

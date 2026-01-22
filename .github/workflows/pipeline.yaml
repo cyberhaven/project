@@ -23,7 +23,7 @@ jobs:
         id: artifact-upload-step
         with:
           name: my-artifact
-          path: project/Test/
+          path: ./project/Test/
           retention-days: 90
           compression-level: 6
           

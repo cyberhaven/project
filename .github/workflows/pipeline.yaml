@@ -4,9 +4,6 @@ on: [push]
 jobs:
   job1:
     runs-on: ubuntu-latest
-   #defaults:
-      #run:
-        #working-directory: Test
     outputs:
       output1: ${{ steps.artifact-upload-step.outputs.artifact-id }}
     steps:
